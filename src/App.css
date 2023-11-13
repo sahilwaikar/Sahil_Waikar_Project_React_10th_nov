@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ /* Home
+
+ .Book_finder {
+  width: 100%;
+  height: 100vh;
+}
+.Book_finder .Book_inner {
+  width: 100%;
+  height: 100%;
+}
+.Book_finder .Book_inner .left_div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://imgs.search.brave.com/IGrHvsFnpp6Mp_XDgMbKLxz61ZsDwV3Ofbhyx1DklFs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM5/Nzg2NzA3L3Bob3Rv/L2xpYnJhcnkuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPXRV/d3lXSExKbnIyaFN3/Yi1vcUZOelBHWm1L/eDk1UUlhRmFaVXZO/b0hqSGM9);
+}
+.Book_finder .Book_inner .right_div {
+  position: relative;
+  margin: 0;
+}
+.Book_finder .Book_inner .right_div .right_inner_div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Book_finder .Book_inner .right_div .right_inner_div .book_search {
+  position: relative;
+  width: 300px;
+}
+.Book_finder .Book_inner .right_div .right_inner_div .book_search #book_input {
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  width: 200px;
+}
+.Book_finder .Book_inner .right_div .right_inner_div .book_search #book_input:focus {
+  background-color: gainsboro;
+}
+.Book_finder .Book_inner .right_div .right_inner_div .book_search #book_btn {
+  position: absolute;
+  right: 100px;
+  border-radius: 25px;
+}
+.Book_finder .book_shelf {
+  width: 80%;
+  margin: 0 auto;
+}
+.Book_finder .book_shelf .card .book_img {
+  width: 100%;
+  height: 200px;
+}
+
+/* favourite */
+
+/* .book_des .book_des_img {
+  width: 80%;
+  margin-left: 10%;
+}
+.book_des .book_des_head {
+  text-align: center;
+}
+ */ 
